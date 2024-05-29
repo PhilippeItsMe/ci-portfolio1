@@ -1,0 +1,83 @@
+/* Colors  
+Orange : #ED8903
+Brun :#BF664B
+Grey : #E3E0DF
+Anthracite #525252
+*/
+
+/* Font
+Title : Albert Sans
+Paragraphe: Manrope
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --orange: #ED8903;
+    --brun: #BF664B;
+    --grey: #E3E0DF;
+    --antracite: #525252;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Albert Sans", sans-serif;
+    color: var(--antracite)
+}
+
+/* Header */
+
+header {
+    height: 100px;
+    margin: 1rem 1rem 0 1rem;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+#menu li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+#menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--antracite);
+}
+
+#menu li a:hover,
+.active {
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: 1px;
+}
+
+/* Cover */
+
+#cover-image {
+    width: 100%;
+    height: 500px;
+    background-color: var(--brun);
+    background-image: url("/assets/images/coverpeople.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#titel-container {}
