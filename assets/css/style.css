@@ -31,6 +31,22 @@ body {
     color: var(--antracite)
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Manrope, sans-serif;
+}
+
 /* Header */
 
 header {
@@ -62,8 +78,7 @@ header {
     color: var(--antracite);
 }
 
-#menu li a:hover,
-.active {
+#menu li a:hover {
     border-bottom: 2px solid var(--orange);
     padding-bottom: 1px;
 }
@@ -100,14 +115,12 @@ header {
 #title-container h3 {
     color: var(--grey);
     text-transform: uppercase;
-    font-size: 1.5rem;
     border-bottom: 1px solid var(--grey);
     padding-bottom: 2px;
 }
 
 #title-container h1 {
     color: var(--grey);
-    font-size: 3rem;
 }
 
 #arrow {
@@ -117,3 +130,5 @@ header {
     right: 3rem;
     bottom: -7rem;
 }
+
+/* Lets meet */

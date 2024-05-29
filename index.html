@@ -19,7 +19,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a class="active" href="#how-easy">How easy</a>
+                    <a href="#how-easy">How easy</a>
                 </li>
                 <li>
                     <a href="#4-steps">4 steps</a>
@@ -36,7 +36,6 @@
     <main>
 
         <!--Cover section-->
-
         <section id="cover-image">
             <div id="title-container">
                 <h3>Targeted <i class="fa-light fa-bullseye-pointer"></i> Efficient <i
@@ -46,7 +45,7 @@
             </div>
         </section>
 
-
+        <!--How easy section-->
         <section>
             <h2>How easy</h2>
             <p>One of the major challenges facing companies in French-speaking Switzerland is to recruit the right
@@ -54,6 +53,8 @@
                 skills, not to mention complementarity with future colleagues. Mission impossible? What if you could
                 achieve all these objectives, despite a dry market?</p>
         </section>
+
+        <!--4 steps section-->
         <section>
             <h2>4 steps to find the perfect match</h2>
             <p></p>
@@ -62,9 +63,36 @@
             <h3>Testimonials</h3>
             <h2>Who could be better to talk about us than our customers ?</h2>
         </section>
-        <section>
-            <h2>Let's discuss your needs</h2>
-            <p></p>
+
+        <!--Let's meet section-->
+        <section id="form-container">
+            <div id="lets-meet-image"></div>
+            <div id="form-backgroung">
+                <form action="#" method="post">
+                    <h2>How can I help you ?</h2>
+                    <label for="fname">First name</label>
+                    <input id="fname" name="fname" type="text" required>
+                    <label for="lname">Last name</label>
+                    <input id="lname" name="lname" type="text" required>
+                    <label for="compagny">Compagny name</label>
+                    <input id="compagny" name="compagny" type="text" required>
+                    <label for="position">Position</label>
+                    <input id="position" name="position" type="text" required>
+                    <label for="mobile">Mobile</label>
+                    <input id="mobile" name="mobile" type="tel" required>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                    <!--<label for="need">Need description</label>
+                    <textarea id="need" rows="40" clos="50">-->
+                    <label for="low">Low</label>
+                    <input id="low" name="urgency-level" type="radio" value="low">
+                    <label for="medium">Low</label>
+                    <input id="medium" name="urgency-level" type="radio" value="medium">
+                    <label for="high">Low</label>
+                    <input id="hign" name="urgency-level" type="radio" value="high">
+                    <button type="sumit">Let's meet!</button>
+                </form>
+
         </section>
 
     </main>
