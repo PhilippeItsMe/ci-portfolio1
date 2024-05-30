@@ -131,6 +131,18 @@ header {
     bottom: -7rem;
 }
 
+/* 4 steps */
+
+#steps {
+    width: 100%;
+    height: 500px;
+    padding: 2rem;
+}
+
+#steps h2 {
+    text-align: center;
+}
+
 /* Lets meet */
 
 #form-container {
