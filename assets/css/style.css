@@ -4,6 +4,7 @@
     --orange: #ED8903;
     --orange-transparent: #ed8803e6;
     --brun: #BF664B;
+    --brun-transpartent: #bf664b3c;
     --white: #ffffff;
     --lightgrey: #f8f3f3;
     --grey: #d5d5d5;
@@ -23,6 +24,7 @@ body {
 
 h1 {
     font-size: 2.8rem;
+    font-weight: 500;
 }
 
 h2 {
@@ -32,6 +34,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 h4 {
@@ -130,8 +133,8 @@ header {
 
 /* How easy */
 
-#how-easy-intro {
-    margin: 2rem;
+#how-easy-title {
+    margin: 6rem;
 }
 
 #how-easy-text {
@@ -140,7 +143,7 @@ header {
 }
 
 #how-easy-text p {
-    width: 50%;
+    width: 70%;
     padding: 0.5rem 0;
     margin-top: 1rem;
 }
@@ -153,7 +156,7 @@ header {
     justify-content: space-evenly;
 }
 
-article {
+.box {
     width: 250px;
     height: 250px;
     background-color: var(--brun);
@@ -166,17 +169,17 @@ article {
     align-items: center;
 }
 
-article:hover {
+.box:hover {
     background-color: var(--orange);
 }
 
-article p {
+.box p {
     font-size: 3rem;
     color: var(--white);
     margin-bottom: 0.5rem;
 }
 
-article h4 {
+.box h4 {
     text-align: center;
     color: var(--white);
 }
@@ -245,6 +248,64 @@ article h4 {
     border-radius: 90%;
     border: 0.5px solid var(--antracite);
     padding: 1rem;
+}
+
+/* Testimonials*/
+
+#testimonial-title {
+    margin: 6rem;
+}
+
+#testimonial-title p {
+    padding-left: 2rem;
+    border-left: 3px solid var(--orange);
+    width: 70%;
+    padding: 0.5rem 0 0.5rem 2rem;
+    margin-top: 1rem;
+}
+
+#testimonial-box {
+    width: 80%;
+    margin: 0 auto 5rem auto;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 1rem;
+    grid-template-areas:
+        "testi1 testi2 testi2"
+        "testi1 testi3 testi3";
+}
+
+#testi1,
+#testi2,
+#testi3 {
+    border: 3px solid var(--orange);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#testi1 p,
+#testi2 p,
+#testi3 p {
+    margin-top: 0.5rem;
+}
+
+#testi1:hover,
+#testi2:hover,
+#testi3:hover {
+    background-color: var(--brun-transpartent);
+}
+
+
+#testi1 {
+    grid-area: testi1;
+}
+
+#testi2 {
+    grid-area: testi2;
+}
+
+#testi3 {
+    grid-area: testi3;
 }
 
 /* Lets meet */
