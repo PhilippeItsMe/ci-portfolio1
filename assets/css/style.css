@@ -1,10 +1,3 @@
-/* Colors  
-Orange : #ED8903
-Brun :#BF664B
-Grey : #E3E0DF
-Anthracite #525252
-*/
-
 /* Font
 Title : Albert Sans
 Paragraphe: Manrope
@@ -17,6 +10,8 @@ Paragraphe: Manrope
     --orange-transparent: #ed8803e6;
     --brun: #BF664B;
     --white: #ffffff;
+    --lightgrey: #f8f3f3;
+    --grey: #d5d5d5;
     --antracite: #525252;
 }
 
@@ -37,10 +32,16 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 p {
@@ -133,14 +134,71 @@ header {
 
 /* 4 steps */
 
-#steps {
-    width: 100%;
-    height: 500px;
-    padding: 2rem;
+#four-steps {
+    background-color: var(--lightgrey);
 }
 
-#steps h2 {
+#four-steps h2 {
     text-align: center;
+    padding: 3rem 0;
+}
+
+#orangeline {
+    width: 20%;
+    margin: 0 auto;
+    border-bottom: 3px solid var(--orange);
+}
+
+
+#steps p {
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 1px solid var(--antracite);
+
+}
+
+#steps {
+    width: 60%;
+    margin: 1rem auto;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (2, 150px);
+    grid-template-areas:
+        "step1 stepimage step3"
+        "step2 stepimage step4";
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#step1 {
+    grid-area: step1;
+}
+
+#step2 {
+    grid-area: step2;
+}
+
+#step3 {
+    grid-area: step3;
+}
+
+#step4 {
+    grid-area: step4;
+}
+
+#stepimage {
+    grid-area: stepimage;
+    align-self: center;
+}
+
+#stepimage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 90%;
+    border: 0.5px solid var(--antracite);
+    padding: 1rem;
 }
 
 /* Lets meet */
