@@ -23,6 +23,12 @@ body {
     color: var(--antracite)
 }
 
+#wrapper {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 2.8rem;
     font-weight: 500;
@@ -64,6 +70,7 @@ header {
 #logo {
     font-size: 2rem;
     font-weight: 600;
+    width: 30%;
     text-transform: uppercase;
     float: left;
 }
@@ -460,13 +467,35 @@ input:focus {
 
 /* Media queries*/
 
-@media screen and (max-width: 800) {
+@media screen and (max-width: 800px) {
 
     /* Header */
+    header {
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
 
+    #logo {
+        font-size: 2rem;
+        font-weight: 800;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 1rem 0;
+    }
 
+    #menu {
+        float: none;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
 
-
+@media screen and (max-width: 400px) {
+    header {
+        height: 200px;
+    }
 
 
 }
