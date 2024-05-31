@@ -467,6 +467,41 @@ input:focus {
 
 /* Media queries*/
 
+@media screen and (max-width: 1375px) {
+
+    /* Introduction - Cover */
+    #title-container {
+        width: 50%;
+        height: 70%;
+        left: 5%;
+        top: 20%;
+    }
+
+    #arrow {
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        right: 2rem;
+        bottom: -4rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* Introduction - Cover */
+    #title-container {
+        width: 50%;
+        height: 70%;
+        left: 5%;
+        top: 20%;
+    }
+
+    #arrow {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
 
     /* Header */
@@ -490,12 +525,29 @@ input:focus {
         text-align: center;
         padding-top: 1rem;
     }
+
+    /* Introduction - Cover */
+    #title-container {
+        width: 90%;
+        height: 90%;
+        margin: auto 0;
+        top: 10%;
+        padding-left: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
+
+    /* Header */
     header {
         height: 200px;
     }
+
+    /* Introduction - Cover */
+    #title-container h3 {
+        display: none;
+    }
+
 
 
 }
