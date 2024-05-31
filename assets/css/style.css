@@ -4,11 +4,12 @@
     --orange: #ED8903;
     --orange-transparent: #ed8803e6;
     --brun: #BF664B;
-    --brun-transpartent: #bf664b3c;
+    --brun-transpartent: #bf664be1;
+    --brun-very-transpartent: #bf664b4f;
     --white: #ffffff;
     --lightgrey: #f8f3f3;
     --grey: #d5d5d5;
-    --antracite: #525252;
+    --antracite: #414040;
 }
 
 * {
@@ -174,7 +175,7 @@ header {
 .box {
     width: 250px;
     height: 250px;
-    background-color: var(--brun);
+    background-color: var(--brun-transpartent);
     border-radius: 1rem;
     padding: 1rem;
 
@@ -225,15 +226,13 @@ header {
 #steps {
     width: 60%;
     margin: 0 auto;
-    height: 400px;
+    padding: 4rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, minmax(100px, 200px));
     grid-template-areas: "step1 stepimage step3"
         "step2 stepimage step4";
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     justify-content: center;
-    align-items: center;
 }
 
 #step1 {
@@ -307,9 +306,8 @@ header {
 #testi1:hover,
 #testi2:hover,
 #testi3:hover {
-    background-color: var(--brun-transpartent);
+    background-color: var(--brun-very-transpartent);
 }
-
 
 #testi1 {
     grid-area: testi1;
@@ -427,7 +425,6 @@ input:focus {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 #address p {
@@ -459,4 +456,17 @@ input:focus {
     color: var(--antracite);
     font-size: 1.5rem;
     padding-left: 1.5rem;
+}
+
+/* Media queries*/
+
+@media screen and (max-width: 800) {
+
+    /* Header */
+
+
+
+
+
+
 }
