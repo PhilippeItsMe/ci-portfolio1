@@ -15,7 +15,7 @@ Le service se distingue des chasseurs de têtes par un coût bien plus compétit
 
 <ul>
     <li><a href="https://philippeitsme.github.io/ci-portfolio1/" target="_blank">Github Live</a></li>
-    <li><a href="https://github.com/PhilippeItsMe/ci-portfolio1" target="_blank">Github Repository</a><</li>
+    <li><a href="https://github.com/PhilippeItsMe/ci-portfolio1" target="_blank">Github Repository</a></li>
 </ul>
 
 ### Features
