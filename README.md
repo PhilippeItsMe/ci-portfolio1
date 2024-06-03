@@ -49,7 +49,7 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 ### Speed - Lighthouse
 
-Issues to discuss with Steven
+Issues to discuss with Spence
 
 ### Debugging
 
