@@ -489,6 +489,16 @@ input:focus {
     }
 }
 
+@media screen and (max-width: 1300px) {
+    #how-easy {
+        width: 100%;
+        background-image: url(../images/youngworkers.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}
+
 @media screen and (max-width: 1000px) {
 
     /* Introduction - Cover */
@@ -536,6 +546,11 @@ input:focus {
         margin: auto 0;
         top: 10%;
         padding-left: 0.5rem;
+        text-align: center;
+    }
+
+    #title-container h3 {
+        align-self: center;
     }
 }
 
@@ -550,9 +565,7 @@ input:focus {
         width: 100%;
         padding: 0.5rem 0;
         margin-top: 1rem;
-
     }
-
 
     @media screen and (max-width: 400px) {
 
@@ -566,3 +579,4 @@ input:focus {
             display: none;
         }
     }
+}
