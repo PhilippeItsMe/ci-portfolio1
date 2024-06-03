@@ -103,7 +103,7 @@ header {
     width: 100%;
     height: 500px;
     background-color: var(--brun);
-    background-image: url("../images/coverpeople.png");
+    background-image: url("../images/coverpeople.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -352,7 +352,7 @@ header {
 #lets-meet-image {
     width: 100%;
     height: 100%;
-    background-image: url("../images/contact.png");
+    background-image: url("../images/contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
