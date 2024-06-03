@@ -70,7 +70,7 @@ header {
 #logo {
     font-size: 2rem;
     font-weight: 600;
-    width: 30%;
+    width: 300px;
     text-transform: uppercase;
     float: left;
 }
@@ -218,7 +218,7 @@ header {
 
 #four-steps h2 {
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 #orangeline {
@@ -513,6 +513,14 @@ input:focus {
     }
 }
 
+@media screen and (max-width: 1200px) {
+
+    /* 4 steps */
+    #steps {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
 
     /* Introduction - Cover */
@@ -532,10 +540,7 @@ input:focus {
         height: 20rem;
         flex-direction: column;
     }
-
-
 }
-
 
 @media screen and (max-width: 800px) {
 
@@ -575,25 +580,39 @@ input:focus {
         align-self: center;
     }
 
-    /* Testimonials */
-    #testimonial-box {
-        grid-template-areas:
-            "testi1 testi1 testi1"
-            "testi2 testi2 testi2"
-            "testi3 testi3 testi3";
+    /* 4 steps */
+    #steps {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
     }
 
-    /* Let's meet */
-    #lets-meet-image-container {
-        display: none;
+    #stepimage img {
+        width: 200px;
+        height: 200px;
+        margin-top: 2rem;
     }
+}
 
-    #form-background {
-        background-color: var(--brun);
-        width: 100%;
-        height: 100%;
-        padding: 3rem 3rem;
-    }
+/* Testimonials */
+#testimonial-box {
+    grid-template-areas:
+        "testi1 testi1 testi1"
+        "testi2 testi2 testi2"
+        "testi3 testi3 testi3";
+}
+
+/* Let's meet */
+#lets-meet-image-container {
+    display: none;
+}
+
+#form-background {
+    background-color: var(--brun);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 3rem;
 }
 
 @media screen and (max-width: 600px) {
