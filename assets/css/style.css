@@ -515,6 +515,11 @@ input:focus {
 
 @media screen and (max-width: 1200px) {
 
+    /* How easy */
+    #box-container {
+        padding: 4rem 0;
+    }
+
     /* 4 steps */
     #steps {
         width: 80%;
@@ -593,26 +598,26 @@ input:focus {
         height: 200px;
         margin-top: 2rem;
     }
-}
 
-/* Testimonials */
-#testimonial-box {
-    grid-template-areas:
-        "testi1 testi1 testi1"
-        "testi2 testi2 testi2"
-        "testi3 testi3 testi3";
-}
+    /* Testimonials */
+    #testimonial-box {
+        grid-template-areas:
+            "testi1 testi1 testi1"
+            "testi2 testi2 testi2"
+            "testi3 testi3 testi3";
+    }
 
-/* Let's meet */
-#lets-meet-image-container {
-    display: none;
-}
+    /* Let's meet */
+    #lets-meet-image-container {
+        display: none;
+    }
 
-#form-background {
-    background-color: var(--brun);
-    width: 100%;
-    height: 100%;
-    padding: 3rem 3rem;
+    #form-background {
+        background-color: var(--brun);
+        width: 100%;
+        height: 100%;
+        padding: 3rem 3rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
