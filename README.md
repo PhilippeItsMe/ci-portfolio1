@@ -51,7 +51,6 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 Issues to discuss with Steven
 
-
 ### Debugging
 
 No major issues, just one synthax issue on the grid technology and the form background color that needed to be darker.
