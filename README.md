@@ -20,7 +20,7 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 ### Layout
 
-
+<img src="assets/images/printscreen.png">
 
 ### Features
 
@@ -45,6 +45,11 @@ The service differs from headhunters in that it is much more cost-competitive, a
     <li>Target="_blank" in place : ✅</li>
     <li>Form plugged to a dB : ❌ (not for the moment)</li>
 </ul>
+
+
+### Speed - Lighthouse
+
+Issues to discuss with Steven
 
 
 ### Debugging
