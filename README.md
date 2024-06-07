@@ -49,7 +49,9 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 ### Speed - Lighthouse
 
-Issues to discuss with Spence
+Looking great ✅
+
+<img src="assets/images/lighthousedesktop.png">
 
 ### Debugging
 
