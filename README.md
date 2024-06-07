@@ -11,11 +11,10 @@ The LinkedIn Recruiter website is designed to offer company directors, departmen
 
 The service differs from headhunters in that it is much more cost-competitive, and from job boards, which generate a lot of irrelevant applications, in that it offers qualitative postings.
 
-### Github Links
+### Github Live Link
 
 <ul>
     <li><a href="https://philippeitsme.github.io/ci-portfolio1/" target="_blank">Github Live</a></li>
-    <li><a href="https://github.com/PhilippeItsMe/ci-portfolio1" target="_blank">Github Repository</a></li>
 </ul>
 
 ### Layout
