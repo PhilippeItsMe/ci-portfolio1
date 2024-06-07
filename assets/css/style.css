@@ -410,14 +410,14 @@ input:focus {
     font-size: 1.1rem;
     letter-spacing: 2px;
     font-weight: 500;
-    background-color: var(--orange);
+    background-color: rgb(103, 23, 23);
     color: var(--white);
 }
 
 #form-button:hover {
-    background-color: var(--brun);
-    color: var(--white);
-    border: 3px solid var(--orange);
+    background-color: var(--white);
+    color: rgb(103, 23, 23);
+    border: 3px solid rgb(103, 23, 23);
 }
 
 /* Footer*/
