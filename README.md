@@ -53,7 +53,7 @@ Desktop peformance : Looking great ✅
 
 <img style="width:250px" src="assets/images/lighthousedesktop.png">
 
-Mobile peformance : Not so great... in performance.
+Mobile peformance : Not so great... in performance. Great opportunity to sell a fee SEO consulting hours. 
 
 <img style="width:250px" src="assets/images/lighthousemobile.png">
 
