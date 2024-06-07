@@ -47,8 +47,8 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 W3 Validator output : 
 
-<img style="width:250px" src="assets/images/html.webp">
-<img style="width:250px" src="assets/images/css.webp>
+<img style="width:350px" src="assets/images/html.webp"><br>
+<img style="width:350px" src="assets/images/css.webp"><br>
 
 
 ### Speed - Lighthouse
@@ -60,7 +60,45 @@ Looking great ✅
 
 ### Debugging
 
-No major issues, just one synthax issue on the grid technology and the form background color that needed to be darker.
+#### HTML&CSS
+Just one synthax issue on the grid technology and the form background color that needed to be darker.
+
+#### PERFORMANCE :
+Had to convert all picture to webp and set a preload line on the html head code.
+
+### Deployment
+
+#### Version Control
+
+The site was created using Visual Studio Code and Gitpod editor and pushed to Github to the remote repository "ci-portfolio1".
+
+Git commands were used throughout the development to push the code to the remote repository. 
+
+The following git commands were used:
+<ul>
+    <li>git add . - to add the files to the staging area before being committed.</li>
+    <li>git commit -m "commit message" - to commit changes to the staging step.</li>
+    <li>git push - to push all committed code to the remote repository on Github.</li>
+</ul>
+
+#### Deployment to Github pages
+
+The site was deployed to Github as follow:
+<ol>
+    <li>In the Github repository, navigat to Settings tab</li>
+    <li>From the source section drop-down menu, select the Master branch and Save</li>
+    <li> Once the Master branch is selected, the page provided the link to the website</li>
+</ol>
+
+#### Cloning of the Repository Code locally
+
+<ol>
+    <li>Go to the Github repository that you want to clone</li>
+    <li>Click on the Code button located above all the project files</li>
+    <li>Click on HTTPS and copy the repository link</li>
+    <li>Open the IDE of your choice and and paste the copied git url into the IDE terminal</li>
+    <li>The project is now created as a local clone</li>
+</ol>
 
 ### Credits
 
