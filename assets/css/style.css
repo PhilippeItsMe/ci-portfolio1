@@ -149,7 +149,7 @@ header {
 
 #how-easy {
     width: 100%;
-    background-image: url(../images/youngworkers.webp);
+    background-image: url("../images/youngworkers.jpg");
     background-repeat: no-repeat;
     background-size: 100% 70%;
     background-position: bottom;
@@ -494,7 +494,7 @@ input:focus {
     /* How easy */
     #how-easy {
         width: 100%;
-        background-image: url(../images/youngworkers.webp);
+        background-image: url("../images/youngworkers.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom;
@@ -644,6 +644,14 @@ input:focus {
         /* Introduction - Cover */
         #title-container h3 {
             display: none;
+        }
+
+        #cover-image {
+            background-image: url("../images/coverpeople-mobile.jpg");
+        }
+
+        #how-easy {
+            background-image: url("../images/youngworkers-mobile.jpg");
         }
     }
 }
