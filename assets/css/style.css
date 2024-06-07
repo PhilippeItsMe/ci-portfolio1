@@ -647,11 +647,11 @@ input:focus {
         }
 
         #cover-image {
-            background-image: url("../images/coverpeople-mobile.jpg");
+            background-image: url("../images/coverpeople-mobile.webp");
         }
 
         #how-easy {
-            background-image: url("../images/youngworkers-mobile.jpg");
+            background-image: url("../images/youngworkers-mobile.webp");
         }
     }
 }

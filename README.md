@@ -49,9 +49,9 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 ### Speed - Lighthouse
 
-Looking great ✅
+Desktop peformance : Looking great ✅
 
-<img src="assets/images/lighthousedesktop.png">
+<img style="width:250px" src="assets/images/lighthousedesktop.png">
 
 ### Debugging
 
