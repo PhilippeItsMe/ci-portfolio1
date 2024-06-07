@@ -19,7 +19,7 @@ The service differs from headhunters in that it is much more cost-competitive, a
 
 ### Layout
 
-<img src="assets/images/printscreen.png">
+<img src="assets/images/screenshots.webp">
 
 ### Features
 
@@ -45,16 +45,17 @@ The service differs from headhunters in that it is much more cost-competitive, a
     <li>Form plugged to a dB : ❌ (not for the moment)</li>
 </ul>
 
+W3 Validator output : 
+
+<img style="width:250px" src="assets/images/html.webp">
+<img style="width:250px" src="assets/images/css.webp>
+
 
 ### Speed - Lighthouse
 
-Desktop peformance : Looking great ✅
+Looking great ✅
 
-<img style="width:250px" src="assets/images/lighthousedesktop.png">
-
-Mobile peformance : Not so great... in performance. Great opportunity to sell a fee SEO consulting hours. 
-
-<img style="width:250px" src="assets/images/lighthousemobile.png">
+<img style="width:250px" src="assets/images/lighthouse.webp">
 
 
 ### Debugging
