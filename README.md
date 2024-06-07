@@ -53,6 +53,11 @@ Desktop peformance : Looking great ✅
 
 <img style="width:250px" src="assets/images/lighthousedesktop.png">
 
+Mobile peformance : Not so great... in performance.
+
+<img style="width:250px" src="assets/images/lighthousemobile.png">
+
+
 ### Debugging
 
 No major issues, just one synthax issue on the grid technology and the form background color that needed to be darker.
