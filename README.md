@@ -15,6 +15,10 @@ The website is targeting : humain ressource directors, humain ressource managers
 
 The goal of the website is to generate lead by inviting people to send a form to have a deeper presentation and understanding of the service. The goal is the same if you come for the first time and more then one time.
 
+The website is designed to demonstrate the benefit of our solution and to give it credibily with testimonials.
+
+The webiste is designed too to explain the main steps of our service to give an understanding of how it work and the potentiel benefit of it.
+
 ### Github Live Link
 
 <ul>
