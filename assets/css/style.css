@@ -476,6 +476,30 @@ input:focus {
     padding-left: 1.5rem;
 }
 
+/* 404 page*/
+
+#errorpage {
+    background-color: var(--brun);
+    text-align: center;
+    color: white;
+    padding: 4rem 0rem;
+}
+
+#errorpage p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#errorpage a {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
 /* Media queries*/
 
 @media screen and (max-width: 1375px) {
