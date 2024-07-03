@@ -5,13 +5,13 @@
 <h1>CHALLENGE 1 | HTLM & CSS</h1>
 
 
-### Background
+### Background / Userstory
 
-The LinkedIn Recruiter website is designed to offer company directors, department heads and HR and recruitment managers a tool enabling them to “hunt” for profiles matching their requirements on LinkedIn.
+The LinkedIn Recruiter website is designed to offer company directors, department heads of and HR manager & recruiter a tool enabling them to “hunt” on LinkedIn for profiles matching their requirements.
 
-The service differs from headhunters in that it is much more cost-competitive, and from job boards, which generate a lot of irrelevant applications, in that it offers qualitative postings.
+The service differs from headhunting company in that it is much more cost-competitive, and from job boards, in that it's not generating a lot of irrelevant applications.
 
-The website is targeting : humain ressource directors, humain ressource managers, hiring manager and head hunters.
+The website is targeting : company directors and owners, humain ressource directors,hiring manager and head hunters.
 
 The goal of the website is to generate lead by inviting people to send a form to have a deeper presentation and understanding of the service. The goal is the same if you come for the first time and more then one time.
 
@@ -48,6 +48,19 @@ The website is designed too to explain the main steps of our service to give an 
     <img style="width: 300px" src="assets/images/screenshot-footer.webp">
 </ul>
 
+### Design elements
+
+#### Main colors
+Primary color : orange #d27905 and brun #bb5a3c
+Secondary color : antracite #414040 and white #ffffff
+
+Light variation of orange, burn and antracite a sometime used.
+
+#### Main fonts
+Title : Albert Sans
+Paragraph : Manrope
+
+
 ### Languages useds
 
 <ul>
@@ -78,6 +91,18 @@ W3 Validator output :
 <img style="width:350px" src="assets/images/html.webp"><br>
 <img style="width:350px" src="assets/images/css.webp"><br>
 
+Userstory testing : 
+<ul>
+    <li>Point of pain solving proposition (in the fist section) : ✅</li>
+    <li>Benefit presentation : ✅</li>
+     <li>Step of the recruitement process : ✅</li>
+     <li>Testimonials : ✅</li>
+     <li>Easy contact opportunity (form & footer) : ✅</li>
+</ul>
+
+404 pages : working well ✅
+
+<img style="width: 300px" src="assets/images/screenshot-404.webp">
 
 ### Speed - Lighthouse
 
