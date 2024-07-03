@@ -17,7 +17,7 @@ The goal of the website is to generate lead by inviting people to send a form to
 
 The website is designed to demonstrate the benefit of our solution and to give it credibily with testimonials.
 
-The webiste is designed too to explain the main steps of our service to give an understanding of how it work and the potentiel benefit of it.
+The website is designed too to explain the main steps of our service to give an understanding of how it work and the potentiel benefit of it.
 
 ### Github Live Link
 
